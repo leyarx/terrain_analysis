@@ -105,7 +105,7 @@ void ViewShade() {
 //        ter.faces[i].f = color(0);
         //map(mouseX, 0, width, -30, 30)
         ter.faces[i].f = color(map(d,r,0,0.8,1),map(d,r,0,0.2,1),norm(d,r,0));
-        ter.faces[i].isVisible = true;
+        ter.faces[i].isVisible = false;
 //        ter.faces[i].f = color(0);
         //ter.points[i].c = color(norm(d,r,0));
         //ter.points[i].c = color(1.);
